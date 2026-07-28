@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FDF0D5;
+}
+
+@font-face{
+    font-family: "crafty";
+    src: url("Crafty_Girls/CraftyGirls-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "handlee";
+    src: url("Handlee/Handlee-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: #249D8F;
+    z-index: 1000;
+}
+
+.nav-links{
+    display: flex;
+    font-family: "crafty", sans-serif;
+    font-size: 1.5em;
+    list-style: none;
+    gap: 10em;
+    /*top right bottom left*/
+    padding: 1em 2.5em 1em 2.5em;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+section{
+    min-height: 100vh;
+    padding: 70px 10px 10px 10px;
+    font-family: "handlee", sans-serif;
+    font-size: 20px;
+    color: #E76F51;
+}
+
+.home-cont{
+    border: 2px solid #A4B885;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.round-border{
+    border: 5px solid #E9C46A;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    display: block;
+}
