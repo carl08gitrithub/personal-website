@@ -49,6 +49,14 @@ body{
     color: floralwhite;
 }
 
+.round-border{
+    border: 5px solid #E9C46A;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
 section{
     min-height: 100vh;
     padding: 70px 10px 10px 10px;
@@ -67,10 +75,24 @@ section{
     padding: 2em;
 }
 
-.round-border{
-    border: 5px solid #E9C46A;
-    border-radius: 15px;
-    width: 300px;
-    height: auto;
+.des-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+#arr-down{
+    width: 90px;
+    margin: 30px auto 0;
+    cursor: pointer;
     display: block;
+    animation: bounce 1.8s ease-in-out infinite;
+}
+
+@keyframes bounce{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
 }
