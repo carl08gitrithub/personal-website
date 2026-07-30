@@ -58,8 +58,12 @@ section{
 }
 
 .home-cont{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
     border: 2px solid #A4B885;
     border-radius: 5px;
+    margin: 1em;
     padding: 2em;
 }
 
