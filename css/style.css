@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #FDF0D5;
 }
@@ -58,7 +62,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 70px 10px 10px 10px;
     font-family: "handlee", sans-serif;
     font-size: 35px;
@@ -95,4 +99,23 @@ section{
     50%{
         transform: translateY(10px);
     }
+}
+
+.git-proj{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+
+
+}
+
+.git-proj > div{
+    width: 100%;
+}
+
+.git-proj img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
