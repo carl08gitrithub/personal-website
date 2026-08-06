@@ -67,15 +67,53 @@
     </section>
 
     <section id="artworks">
-        <p>(no longer drawing)</p>
+        <p>My artworks (no longer drawing)</p>
 
         <div class="gallery">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="css/images/art-1.jpg" alt="An abstract face with oil pastels" class="gallery-item" onclick="openModal('mdl-1', 'An abstract face with oil pastels')">
+            <img src="css/images/art-2.jpg" alt="Charcoal sketch of fruits" class="gallery-item" onclick="openModal('mdl-2', 'Charcoal sketch of fruits')">
+            <img src="css/images/art-3.jpg" alt="An abstract face with paints" class="gallery-item" onclick="openModal('mdl-3', 'An abstract face with paints')">
+            <img src="css/images/art-4.jpg" alt="Graphite sketch of St. Pope Francis embracing a child" class="gallery-item" onclick="openModal('mdl-4', 'Graphite sketch of St. Pope Francis embracing a child')">
+            <img src="css/images/art-5.jpg" alt="A pen drawing of an octopus" class="gallery-item" onclick="openModal('mdl-5', 'A pen drawing of an octopus')">
+            <img src="css/images/art-6.jpg" alt="Charcoal sketch of my aunt" class="gallery-item" onclick="openModal('mdl-6', 'Charcoal sketch of my aunt')">
         </div>
+
+        <div id="mdl-1" class="mdl">
+            <span class="close" onclick="closeModal('mdl-1')">&times;</span>
+            <img src="css/images/art-1.jpg" alt="An abstract face with oil pastels" class="modal-content">
+            <div class="caption"></div>
+        </div>
+
+        <div id="mdl-2" class="mdl">
+            <span class="close" onclick="closeModal('mdl-2')">&times</span>
+            <img src="css/images/art-2.jpg" alt="Charcoal sketch of fruits" class="modal-content">
+            <div class="caption"></div>
+        </div>
+
+        <div id="mdl-3" class="mdl">
+            <span class="close" onclick="closeModal('mdl-3')">&times</span>
+            <img src="css/images/art-3.jpg" alt="An abstract face with paints" class="modal-content">
+            <div class="caption"></div>
+        </div>
+
+        <div id="mdl-4" class="mdl">
+            <span class="close" onclick="closeModal('mdl-4')">&times</span>
+            <img src="css/images/art-4.jpg" alt="Graphite sketch of St. Pope Francis embracing a child" class="modal-content">
+            <div class="caption"></div>
+        </div>
+
+        <div id="mdl-5" class="mdl">
+            <span class="close" onclick="closeModal('mdl-5')">&times</span>
+            <img src="css/images/art-5.jpg" alt="A pen drawing of an octopus" class="modal-content">
+            <div class="caption"></div>
+        </div>
+
+        <div id="mdl-6" class="mdl">
+            <span class="close" onclick="closeModal('mdl-6')">&times</span>
+            <img src="css/images/art-6.jpg" alt="Charcoal sketch of my aunt" class="modal-content">
+            <div class="caption"></div>
+        </div>
+
     </section>
 
     <section id="contact">
