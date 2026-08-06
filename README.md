@@ -1,2 +1,2 @@
-# personal-website
-This is my personal website. 
+# CJNACAR: PERSONAL WEBSITE
+This is my personal website showcasing about myself.
