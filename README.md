@@ -5,8 +5,7 @@ This is my personal website where I showcase information about myself, my hobbie
 ## Preview
 
 A preview of my personal website:
-
-![Website Preview](css/images/website-prev.gif)
+![Website Preview](css/images/website-prev.png)
 
 You can also view the live website here:
 
