@@ -244,3 +244,14 @@ section{
     width: calc(100% - 20px);
   }
 }
+
+
+.ct-title{
+    display: flex;
+    justify-content: center;
+}
+
+.ct-infos{
+    display: flex;
+    justify-content: space-evenly;
+}
