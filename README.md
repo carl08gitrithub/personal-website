@@ -1,6 +1,6 @@
 # CJNACAR: Personal Website
 
-This is my personal website where I showcase information about myself, my hobbies, artworks, and small Computer Science projects. :)
+This is my personal website, which is pretty a long time to get myself back on creating CS projects. This website was also refreshing, because I actually forgot most of the basics of CSS and JS. But overall, this website is about myself, my hobbies, and... of course, a sort of ---trademark--- a CUTE-ty illustration of me and my cat (Upin).
 
 ## Preview
 
@@ -9,47 +9,33 @@ A preview of my personal website:
 
 You can also view the live website here:
 
-🔗 [Visit the Live Website](https://carl08gitrithub.github.io/personal-website/)
+🔗[Visit the Live Website](https://carl08gitrithub.github.io/personal-website/)
 
 ## Features
+1. Navigation Bar
+2. Github Deck-like cards
+2. Art Gallery
 
-* 🧭 **Navigation Bar** – Easily explore different sections of the website.
-* 💻 **GitHub Cards** – Displays my Computer Science projects with viewable links.
-* 🎨 **Artwork Gallery** – Showcases some of my artworks.
 
-## Running the Website Locally 💻
+## If you want to run the website ⬇️
+This is just a simple static website, so need to worry about complicated stuffs. :) [I also hate complicated things.. heheehe]
 
-Since this is a simple static website, no installation or package manager is required.
-
-### 1. Clone the repository 
-
+### 1. Clone the repository (make sure you installed git)
 ```bash
 git clone https://github.com/carl08gitrithub/personal-website.git
 ```
 
 ### 2. Navigate to the project folder
-
 ```bash
 cd personal-website
 ```
 
 ### 3. Open the website
+Open `index.html` in your preferred web browser.Done!
 
-Open `index.html` in your preferred web browser.
 
-That's it! 🎉
-
-## Technologies Used
-
-This project was built using:
-
-* **HTML**
-* **CSS**
-* **JavaScript**
-
-I chose to keep the website simple and practical, so no complicated frameworks were used.
+## TECH
+I used pure HTML, CSS, and JS. [cause i don't know any frameworks... too busy with my life]
 
 ## Credits
-
-* [GitHubCard.com](https://githubcard.com/) – For making it easier to showcase my Computer Science projects.
-* [W3Schools](https://www.w3schools.com/) – For providing inspiration and references for the artwork gallery.
+First in foremost, I want to thank my friend for sharing the stardance hackclub program (funny thing that I'm the one who shared hackclub first). Thanks Josh! And of course the two websites who made my life easier, GithubCards and W3Schools (helped me since junior high).
