@@ -18,7 +18,7 @@ You can also view the live website here:
 
 
 ## If you want to run the website ⬇️
-This is just a simple static website, so need to worry about complicated stuffs. :) [I also hate complicated things.. heheehe]
+This is just a simple static website, so no need to worry about complicated stuffs. :) [I also hate complicated things.. heheehe]
 
 ### 1. Clone the repository (make sure you installed git)
 ```bash
